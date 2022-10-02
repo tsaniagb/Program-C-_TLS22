@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  float duration;
+  
+  cout << "How long have you worn the mask?\n";
+  cin >> duration;
+  
+  if (duration >= 4.0) {
+      cout << "Change your mask to a new one!\n"
+              "Don't forget to wash your hands!";
+  }
+  else {
+      cout << "Keep wearing your mask properly.\n";
+  }
+  
+  return 0;
+  }
