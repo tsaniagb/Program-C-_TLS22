@@ -10,11 +10,12 @@ int main()
   cin >> duration;
   
   if (duration >= 4.0) {
-      cout << "Change your mask to a new one!\n"
-              "Don't forget to wash your hands!";
+      cout << "Change your mask to a new one,\n"
+              "don't forget to wash your hands!";
   }
   else {
-      cout << "Keep wearing your mask properly.\n";
+      cout << "You can keep wearing your mask.\n"
+              "Wear it properly, make sure it's not wet or dirty.";
   }
   
   return 0;
